@@ -11,8 +11,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
  </head>
  <body class="text-gray-600 font-oswald">
-    <div><!--CONTENT-->
-        <div>
+
+    <div class="grid md:grid-cols-3"><!--CONTENT-->
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase pb-4 border-gray-100">
@@ -39,7 +40,7 @@
             </nav>
         </div><!-----END NAV---->
 
-        <main class="px-16 py-6 bg-blue-300 ">
+        <main class="px-16 py-6 bg-blue-300 md:col-span-2">
             <div class="flex md:justify-end">
                 <a href="#" class="text-red-600">Log in</a>
                 <a href="#"class="text-violet-500 ml-2">Sign up</a>
@@ -54,7 +55,7 @@
                     <h4 class="font-bold mt-12 pb-2 border-b border-yellow-200">Latest Movies</h4>
 
 
-                    <div class="mt-8">
+                    <div class="mt-8 grid lg:grid-cols-3 gap-10">
                         <!--cards -->
                         <div class="card">
                             <img src="img/sampol.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
@@ -64,6 +65,26 @@
                             </div>
                             <div class="badge">
                                 <span>1:04:37 mins</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/sampol2.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Haikyuu</span>
+                                <span class="block text-gray-500 text-sm">Anime</span>
+                            </div>
+                            <div class="badge">
+                                <span>1:01:31 mins</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/sampol3.jpg" alt="" class="w-full h-32 sm:h-48 object-cover">
+                            <div class="m-4">
+                                <span class="font-bold">Chainsaw Man</span>
+                                <span class="block text-gray-500 text-sm">Anime</span>
+                            </div>
+                            <div class="badge">
+                                <span>1:02:40 mins</span>
                             </div>
                         </div>
                     </div>
