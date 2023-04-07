@@ -3,7 +3,7 @@ module.exports = {
   content: ['./public/index.html',
   './src/**/*.{html,js}',],
   presets: [],
-  darkMode: 'media', // or 'class'
+  darkMode: 'class', // or 'class'
   theme: {
     accentColor: ({ theme }) => ({
       ...theme('colors'),
